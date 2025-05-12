@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MaxHeight {
+public class lab4 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt(), road = 0, max = 0;

@@ -1,0 +1,11 @@
+function hFigs=fig2
+SCRsize=get(0, 'ScreenSize');
+SCRwidth=SCRsize(3);
+SCRheight=SCRsize(4);
+width=SCRwidth-5-3;
+height=(SCRheight-19-5-3-19-5-3)/2;
+left=5;
+bottom2=5;
+bottom1=5+height+19+5+3;
+hFigs(1)=figure('Position', [left bottom1 width height], 'MenuBar', 'none', 'Color', 'w');
+hFigs(2)=figure('position', [left bottom2 width height], 'MenuBar', 'none', 'Color', 'w');

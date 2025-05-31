@@ -1,0 +1,7 @@
+set(hAx, 'Xgrid', 'on')
+set(hLines(1), 'Color', 'k')
+set(hLines(1), 'LineWidth', 3)
+set(hLines(2), 'Color', 'k')
+set(hLines(2), 'Marker', 'o')
+set(hLines(2), 'MarkerFaceColor', 'w')
+set(hLines(2), 'MarkerEdgeColor', 'k')

@@ -1,0 +1,5 @@
+function h=pie3tr(x)
+h=pie3(x, ones(size(x)))
+set(gcf, 'Color', 'w')
+hp=findobj(h, 'Type', 'patch')
+set(hp, 'FaceAlpha', 0.4, 'LineStyle', 'none')
